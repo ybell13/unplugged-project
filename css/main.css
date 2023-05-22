@@ -87,11 +87,21 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* added Width*/
+
+.content-wrapper {
+  width: 60%;
+  margin: 50px 0;
+}
+
 /* -------------------- Base Header - Footer Styles -------------------- */
+
 
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
+  /* added padding*/
 }
 
 header .content-wrapper {
@@ -101,9 +111,25 @@ header .content-wrapper {
   flex-flow: row wrap;
 }
 
+/* added header-divider w/width height margin*/
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+}
+
+/* added header nav and Width*/
+
+header nav {
+  width: 60%;
+}
+
 header nav ul {
+  /* added Width*/
+  width: 100%;
   display: flex;
-  justify-content: space-around
+  justify-content: space-around;
 }
 
 footer {
@@ -111,6 +137,25 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+/* added footer p w/margin */
+
+footer p {
+  margin: 0;
+}
+
+/* added footer .content-wrapper w/width and margin*/
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+/* added footer .contact with margin-bottom*/
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -123,6 +168,12 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* added footer .copyright and margin*/
+
+footer .copyright {
+  margin: 20px 0;
 }
 
 /* ---------------------Mobile Styles - Homepage --------------------*/
@@ -148,6 +199,18 @@ aside {
   justify-content: center;
 }
 
+/* added .features h2 margin-bottom*/
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
+/* added .features article w/ width*/
+
+.features article {
+  width: 60%;
+}
+
 .features .features-tiems {
   display: flex;
   justify-content: center;
@@ -155,11 +218,28 @@ aside {
   flex-flow: row wrap;
 }
 
+/* added features p w/ margin*/
+
+.features p {
+  margin: 0;
+}
+
 /* -- Reviews --*/
 
 .reviews {
   display: flex;
   justify-content: center;
+}
+
+/* added .reviews h2/h3 w/ margin-bottom, width and margin*/
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
 }
 
 /** -------------------------- About -------------------------- **/
@@ -174,6 +254,12 @@ aside {
   justify-content: center;
 }
 
+/* added contact-content p w/ margin*/
+
+.contact-content p {
+  margin: 0;
+}
+
 /** -------------------------- FAQ -------------------------- **/
 
 .faq {
@@ -186,6 +272,16 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+/* added .faq h2 and .faq-content w/ margin-bottom on both*/
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
