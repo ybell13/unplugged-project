@@ -140,6 +140,14 @@ p {
   font-size: 0.9em;
   line-height: 1.1em;
 }
+/*add img figure under p*/
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
 
 address {
   font-style: normal;
@@ -169,6 +177,11 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+/*add header figure under header .content-wrapper*/
+
+header figure {
+  width: 60%;
 }
 
 /* added header-divider w/width height margin*/
@@ -250,6 +263,10 @@ footer .copyright {
 /*-- Hero Area --*/
 
 .hero-area {
+  background: url('../img/unplugged-retreat.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
 }
